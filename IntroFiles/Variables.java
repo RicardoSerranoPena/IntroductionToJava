@@ -25,15 +25,15 @@ public class Variables {
         char middleNameInitial = 'A';
         String name = "Alex";
 
-        System.out.print(name);
-        System.out.print(" is ");
-        System.out.print(age);
-        System.out.println(" years old.");
+        // System.out.println(name);
+        // System.out.println(" is ");
+        // System.out.println(age);
+        // System.out.println(" years old.");
 
-        System.out.print(name + " has a cat: ");
-        System.out.println(hasACat);
-        System.out.print("He is over 18: ");
-        System.out.println(over18);
+        // System.out.print(name + " has a cat: ");
+        // System.out.println(hasACat);
+        // System.out.print("He is over 18: ");
+        // System.out.println(over18);
 
         //You can also concatonate strings to make them easier to read and easier to print
         String introduction = name + " " + middleNameInitial + " is " + age + " years old.";
