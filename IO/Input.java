@@ -16,11 +16,12 @@ public class Input {
         int numberOfPets = keyboard.nextInt();
         System.out.println("number of pets: " + numberOfPets);
 
-        System.out.println("Type 2 words: ");
-        //The next function will take only a word denoted by a space or end of line character
-        String word1 = keyboard.next();
-        String word2 = keyboard.next();
-        System.out.println("word 1: " + word1 + ", word 2: " + word2);
+        // System.out.println("Type 2 words: ");
+        // //The next function will take only a word denoted by a space or end of line character
+        // String word1 = keyboard.next();
+        // String word2 = keyboard.next();
+
+        // System.out.println("word 1: " + word1 + ", word 2: " + word2);
 
         //We have to use nextLine to consume the \n character left over
         keyboard.nextLine();

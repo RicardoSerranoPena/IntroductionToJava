@@ -17,14 +17,15 @@ public class CakeAndIceCream {
         } else {
             likesCake = false;
         }
+
         if (likesIceCreamAnswer.equalsIgnoreCase("yes")) {
             likesIceCream = true;
         } else {
             likesIceCream = false;
         }
 
-        System.out.print("This person likes both cake and ice cream: ");
-        if (likesCake && likesIceCream) {
+        System.out.print("This person does not like cake and ice cream: ");
+        if (!likesCake && !likesIceCream) {
             System.out.println("true");
         } else {
             System.out.println("false");

@@ -1,9 +1,9 @@
 /**
  * A Cat class
  */
-public class Cat {
+public class Car {
     
-    private String name;
+	private String name;
     private Date birthDate;
     private boolean hasLongHair;
 
@@ -15,11 +15,11 @@ public class Cat {
      * @param newDate  - birth date
      */
 	public Cat(String newName, boolean longHair, Date newDate) {
-		setName(newName);
-		setLongHair(longHair);
-		setBirthDate(newDate);
-    }
-    
+		name = newName;
+		hasLongHair = longHair;
+		birthDate = newDate;
+	}
+
     //"setters" - methods to set private attributes
 
 	public void setName(String newName) {
