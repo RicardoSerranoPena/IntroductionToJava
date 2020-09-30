@@ -27,6 +27,8 @@ public class Siblings {
         //Store their response as a String
         //Print out their names back to the user and say something about their names
             System.out.println("You have " + numSiblings + " siblings. What are their names?");
+            //keyboard.next() takes the next word but does not consume the \n
+            //to get rid of \n we have to use the nextLine method
             keyboard.nextLine(); //to consume return character \n left behind
             String siblingNames = keyboard.nextLine();
             System.out.println(siblingNames + " what a beautiful family!");

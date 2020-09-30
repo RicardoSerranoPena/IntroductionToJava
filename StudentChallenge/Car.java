@@ -15,4 +15,8 @@ public class Car {
         color = newColor;
         make = newMaker;
     }
+
+    public TestingCar(){
+        
+    }
 }
