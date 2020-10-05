@@ -2,7 +2,7 @@ class SelectionStatements {
 
     public static void main (String[] args) {
 
-        boolean hasACat = true;
+        // boolean hasACat = true;
 
         // if (hasACat) {
         //     System.out.println("You do have a cat");
