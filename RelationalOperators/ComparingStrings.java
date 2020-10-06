@@ -10,10 +10,12 @@ public class ComparingStrings {
         Scanner keyboard = new Scanner(System.in);
         String userName = keyboard.next();
         
-        if (name == userName) {
+        if (name.equals(userName)) {
             System.out.println("Wow, we have the same name!");
         } else {
             System.out.println("Your name is " + userName + ". My name is " + name);
         }
+
+        keyboard.close();
     }
 }

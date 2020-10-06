@@ -37,7 +37,7 @@ public class Car {
 
     public String stop() {
         isOff = true;
-        return "Your turned off your car";
+        return "You turned off your car";
     }
 
     public String refuel(){

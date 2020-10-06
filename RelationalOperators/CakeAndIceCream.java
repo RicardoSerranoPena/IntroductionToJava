@@ -31,5 +31,7 @@ public class CakeAndIceCream {
             System.out.println("false");
         }
 
+        keyboard.close();
+
     }
 }

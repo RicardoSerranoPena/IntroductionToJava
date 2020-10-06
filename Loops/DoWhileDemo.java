@@ -7,7 +7,7 @@ public class DoWhileDemo {
     
     public static void main(String[] args) {
 
-        Boolean endProgram = false;
+        Boolean endProgram = true;
         Scanner keyboard = new Scanner(System.in);
 
         do {

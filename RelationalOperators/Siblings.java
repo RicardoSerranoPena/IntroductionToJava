@@ -33,5 +33,6 @@ public class Siblings {
             String siblingNames = keyboard.nextLine();
             System.out.println(siblingNames + " what a beautiful family!");
         }
+        keyboard.close();
     }
 }
