@@ -6,7 +6,7 @@ public class StudentArray {
      * @return the modified array
      */
     public static double[] divideBy2Array(double[] arr){
-        return 0;
+        return null; //finish this method. Make sure it returns an array of type double
     }
 
     /**
@@ -16,11 +16,11 @@ public class StudentArray {
      * @return true if found in the array, false otherwise
      */
     public static boolean checkArrayForWord(String[] arr, String word) {
-        return false;
+        return false; //finish this method. 
     }
 
     public static void main() {
-        System.out.pritnln("Student Challenge");
-
+        System.out.println("Student Challenge");
+        //Finish the 2 methods above
     }
 }
