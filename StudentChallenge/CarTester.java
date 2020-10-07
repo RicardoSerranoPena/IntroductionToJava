@@ -16,6 +16,11 @@ public class CarTester{
         System.out.println(myFirstCar.refuel());
     }
 
+    public static void menuCar(){
+        System.out.pritnln("Select what to do:");
+        System.out.println("0: quit program");
+    }
+
     public static void main(String[] args) {
         //Make a new Car object
         Car myFirstCar = new Car("green", "Ford", "Mustang", "Gasoline");
@@ -25,5 +30,19 @@ public class CarTester{
         testingCar(myFirstCar);
 
         System.out.println(myFirstCar);
+
+        boolean endProgram = false;
+        
+        while (!endProgram) {
+            printMenu();
+            String userAnswer = keyboard.next();
+            if (userAnswer.equalsIgnoreCase("go")) {
+                System.out.println("Trip of how many kms?");
+                String userTrip
+                myFirstCar.go()
+            }
+        }
+
+
     }
 }

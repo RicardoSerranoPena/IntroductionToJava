@@ -7,7 +7,7 @@ public class WhileDemo {
     
     public static void main (String[] args) {
 
-        Boolean endProgram = true;
+        Boolean endProgram = false;
         Scanner keyboard = new Scanner(System.in);
 
         while (!endProgram) {
@@ -16,6 +16,9 @@ public class WhileDemo {
             
             if (userAnswer.equalsIgnoreCase("yes") || userAnswer.equalsIgnoreCase("sure")) {
                 endProgram = true;
+            }
+            if (userAnswer.equalsIgnoreCase("No")) {
+                endProgram = false;
             }
         }
     }

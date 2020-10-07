@@ -7,7 +7,7 @@ public class DoWhileDemo {
     
     public static void main(String[] args) {
 
-        Boolean endProgram = true;
+        Boolean endProgram = false;
         Scanner keyboard = new Scanner(System.in);
 
         do {
@@ -16,6 +16,9 @@ public class DoWhileDemo {
 
             if (userAnswer.equalsIgnoreCase("yes") || userAnswer.equals("sure")) {
                 endProgram = true;
+            } 
+            if (userAnswer.equalsIgnoreCase("No")) {
+                endProgram = false;
             }
         } while (!endProgram);
     }

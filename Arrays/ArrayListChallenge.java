@@ -10,14 +10,7 @@ public class ArrayListChallenge {
 	 * @return The merged list with everything from one and two.
 	 */
 	public static ArrayList<String> merge(ArrayList<String> one, ArrayList<String> two) {
-        ArrayList<String> mergedList = new ArrayList<String>();
-        for (String element : one) {
-            mergedList.add(element);
-        }
-        for (String element : two) {
-            mergedList.add(element);
-        }
-        return mergedList;
+        return null; //Finish this method
 	}
 	
 	/**
@@ -26,12 +19,7 @@ public class ArrayListChallenge {
 	 * @return The sum of all values in list
 	 */
 	public static double getTotal(ArrayList<Double> list) {
-        double listSum = 0;
-        for (Double element : list ) {
-            listSum += element; 
-        }
-
-		return listSum;
+		return 0.0; //Finish this method
 	}
 	
 	/**
@@ -41,13 +29,7 @@ public class ArrayListChallenge {
 	 * @return The number of String that contain hello
 	 */
 	public static int countAllHellos(ArrayList<String> list) {
-        int numOfHellos = 0;
-        for (String element : list) {
-            if(element.contains("Hello") || element.contains("hello")) {
-                numOfHellos++;
-            }
-        }
-        return numOfHellos;
+        return 0; //Finish this method
 	}
 	
 	public static void main(String [] args) {

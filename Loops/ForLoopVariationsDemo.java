@@ -7,13 +7,13 @@ public class ForLoopVariationsDemo {
 
         //decrementing loop
         System.out.println("\nCounting down");
-        for (int i=5; i>0; i--) {
+        for (int i = 5; i>0; i--) {
 			System.out.println("Counter (i) = " + i);
         }
 
         //powers of two
         System.out.println("\nPowers of two");
-		for (int i=1; i < 10; i *= 2)
+		for (int i = 1; i < 10; i *= 2) //same thing as saying i = i * 2;
 		{
 			System.out.println("Counter (i) = " + i);
 		}
