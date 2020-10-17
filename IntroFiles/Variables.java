@@ -1,48 +1,31 @@
 public class Variables {
     
     public static void main (String[] args) {
-        System.out.println("This is a demo of variables in Java");
+        //To print we use System.out.println()
+        System.out.println("This is a demo of variables in Java" + ". And this is the first lesson");
 
         //This is how you declare a variable
-        int age;
-        boolean hasACat;
-        /**
-        You can also declare multiple variables within
-        the same line as long as they are the same type
-        */
-        double temperature, speed;
-        boolean over18, paid;
+        String name;
+        
+        //Multiple variables in the same line
+        int age, height;
         
         //This is how you assing a value(data) to a variable
+        name = "Larry";
         age = 26;
-        hasACat = true;
-        temperature = 25.8;
-        speed = 45;
-        over18 = true;
-        paid = false;
+        height = 175; //cm
 
         //You can also declare a variable and assing a value to it at the same time
-        char middleNameInitial = 'A';
-        String name = "Alex";
+        boolean hasDarkHair = true;
+        double weight = 60.5; //double is the type of data for values with decimals
 
-        // System.out.println(name);
-        // System.out.println(" is ");
-        // System.out.println(age);
-        // System.out.println(" years old.");
+        System.out.println(name + " has dark hair: " + hasDarkHair);
+        System.out.print(name + " is " + age + " years old.");
+        System.out.println(" He weighs " + weight + "kg and has a height of " + height + "cm");
 
-        // System.out.print(name + " has a cat: ");
-        // System.out.println(hasACat);
-        // System.out.print("He is over 18: ");
-        // System.out.println(over18);
+        // String description = name + " is " + age + " years old. He weighs " + weight
+        //                     + "kg and has a height of " + height + "cm.";
 
-        //You can also concatonate strings to make them easier to read and easier to print
-        String introduction = name + " " + middleNameInitial + " is " + age + " years old.";
-        String weather = "The weather is " + temperature + " C" + " with a wind speed of " + speed + " km/H";
-        String sentence3 = name + " is over 18: " + over18 + ", and paid for ticket: " + paid;
-
-        System.out.println(introduction);
-        System.out.println(weather);
-        System.out.println(sentence3);
-
+        // System.out.println(description);
     }
 }
